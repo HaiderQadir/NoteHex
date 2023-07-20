@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="3dp"
+    android:background="@drawable/single_row_main"
+    tools:context=".activities.EditNotes">
+
+    <TextView
+        android:id="@+id/textviewNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="10dp"
+        android:padding="2dp"
+        android:textColor="@color/green"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textviewTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/green"
+        android:padding="2dp"
+        android:text="time"
+        android:textColor="@color/black"
+        android:textSize="11dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/textviewNotes"
+        app:layout_constraintTop_toBottomOf="@id/textviewNotes" />
+
+    <ImageView
+        android:id="@+id/IVDeleteNote"
+        android:layout_width="18dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/trash_can_solid"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textviewNotes"
+        app:layout_constraintTop_toBottomOf="@+id/textviewNotes" />
+
+    <ImageView
+        android:id="@+id/IVEditNote"
+        android:layout_width="18dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/pen_solid"
+        android:backgroundTint="@color/green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/IVDeleteNote"
+        app:layout_constraintTop_toBottomOf="@+id/textviewNotes" />
+
+    <EditText
+        android:id="@+id/ETEditNote"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/rounded_edit_text"
+        android:padding="5dp"
+        android:text=""
+        android:textColor="@color/green"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonConfirmEdit"
+        app:layout_constraintStart_toStartOf="@+id/textviewTime"
+        app:layout_constraintTop_toBottomOf="@id/textviewTime" />
+
+    <Button
+        android:id="@+id/buttonConfirmEdit"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/square_check_solid"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textviewNotes"
+        app:layout_constraintTop_toBottomOf="@+id/textviewTime" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NotesApp" parent="Theme.Material3.DayNight">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/green</item>
+        <item name="android:statusBarColor">@color/green_dim</item>
+        <item name="fontFamily">@font/ubunturegular</item>
+    </style>
+
+    <style name="Theme.NotesApp" parent="Base.Theme.NotesApp" />
+
+</resources>
