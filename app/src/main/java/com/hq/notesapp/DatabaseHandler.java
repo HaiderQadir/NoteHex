@@ -10,7 +10,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 import java.util.ArrayList;
 
 /**
- * @author HaiderQadir
+ * @author Haider Qadir
  **/
 
 public class DatabaseHandler extends SQLiteOpenHelper {

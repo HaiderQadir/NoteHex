@@ -1,7 +1,7 @@
 package com.hq.notesapp.interfaces;
 
 /**
- * @author HaiderQadir
+ * @author Haider Qadir
  **/
 
 public interface InitInterface {

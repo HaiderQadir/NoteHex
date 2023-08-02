@@ -8,7 +8,7 @@ import com.hq.notesapp.R;
 import com.hq.notesapp.interfaces.InitInterface;
 
 /**
- * @author HaiderQadir
+ * @author Haider Qadir
  **/
 
 public class BaseActivity extends AppCompatActivity implements InitInterface {
