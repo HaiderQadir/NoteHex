@@ -17,7 +17,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * @author HaiderQadir
+ * @author Haider Qadir
  **/
 
 public class MainActivity extends BaseActivity {

@@ -11,7 +11,7 @@ import com.hq.notesapp.R;
 import com.hq.notesapp.activities.MainActivity;
 
 /**
- * @author HaiderQadir
+ * @author Haider Qadir
  **/
 
 public class SplashScreen extends AppCompatActivity {

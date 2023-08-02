@@ -15,7 +15,7 @@ import com.hq.notesapp.adapters.NotesAdapter;
 import java.util.ArrayList;
 
 /**
- * @author HaiderQadir
+ * @author Haider Qadir
  **/
 
 public class AllNotesActivity extends BaseActivity {
