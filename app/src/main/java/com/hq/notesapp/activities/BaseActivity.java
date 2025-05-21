@@ -21,8 +21,7 @@ public class BaseActivity extends AppCompatActivity implements InitInterface {
 
     @Override
     public void init() {
-//        Snackbar snackbar = Snackbar.make(findViewById(android.R.id.content), "Base Activity", Snackbar.LENGTH_LONG);
-//        snackbar.show();
+
     }
 
 }

@@ -77,11 +77,9 @@ public class MainActivity extends BaseActivity {
 
     @Override
     public void onBackPressed() {
-//        super.onBackPressed();
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setMessage("Are you sure you want to Exit ?");
-
 
         builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
             @Override
