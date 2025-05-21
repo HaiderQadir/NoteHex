@@ -4,70 +4,79 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.MainActivity">
+    tools:context=".activities.MainActivity"
+    android:padding="16dp">
 
-    <ImageView
-        android:id="@+id/buttonAddNote"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginBottom="50dp"
-        android:background="@drawable/square_plus_solid"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <ImageView
-        android:id="@+id/buttonViewNotes"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginBottom="50dp"
-        android:background="@drawable/book_solid"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/buttonAddNote" />
-
+    <!-- Top TextInput -->
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="50dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
         android:hint="@string/app_name"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:placeholderText="Start Writing. . .">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/editTextAddNote"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/green" />
-
+            android:textColor="@color/green"
+            android:textSize="16sp"
+            android:padding="12dp"/>
     </com.google.android.material.textfield.TextInputLayout>
 
+    <!-- Title -->
     <TextView
         android:id="@+id/textViewMainScreen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="150dp"
-        android:alpha="0.5"
+        android:layout_marginTop="48dp"
         android:text="@string/app_name"
-        android:textSize="30dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="28sp"
+        android:alpha="0.6"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
+    <!-- Subtitle -->
     <TextView
         android:id="@+id/textViewMainScreen1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="📓 Begin your note-taking journey."
+        android:textSize="16sp"
         android:alpha="0.5"
-        android:text="Start Writing !"
-        android:textSize="18dp"
-        app:layout_constraintEnd_toEndOf="@+id/textViewMainScreen"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMainScreen"
         app:layout_constraintStart_toStartOf="@+id/textViewMainScreen"
-        app:layout_constraintTop_toBottomOf="@+id/textViewMainScreen" />
+        app:layout_constraintEnd_toEndOf="@+id/textViewMainScreen"
+        android:layout_marginTop="8dp"/>
+
+    <!-- View Notes Button -->
+    <ImageView
+        android:id="@+id/buttonViewNotes"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="88dp"
+        android:background="@drawable/book_solid"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Add Note Button -->
+    <ImageView
+        android:id="@+id/buttonAddNote"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/square_plus_solid"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
