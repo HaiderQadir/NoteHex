@@ -20,11 +20,11 @@ NoteHex is a clean and easy-to-use Android notes app built using Java. It’s de
 ## 🖼️ App Screenshots
 
 <p>
-  <img src="https://github.com/HaiderQadir/Notes-App/blob/master/screenshots/SS_NoteHex_01.png" width="180" title="Add Note Screen">
-  <img src="https://github.com/HaiderQadir/Notes-App/blob/master/screenshots/SS_NoteHex_04.png" width="180" title="Add Note Screen">
-  <img src="https://github.com/HaiderQadir/Notes-App/blob/master/screenshots/SS_NoteHex_02.png" width="180" title="Add Note Screen">
-  <img src="https://github.com/HaiderQadir/Notes-App/blob/master/screenshots/SS_NoteHex_03.png" width="180" title="Add Note Screen">
-  <img src="https://github.com/HaiderQadir/Notes-App/blob/master/screenshots/SS_NoteHex_05.png" width="180" title="Add Note Screen">
+  <img src="https://github.com/HaiderQadir/Notes-App/blob/master/screenshots/SS_NoteHex_01.png" width="170" title="Add Note Screen">
+  <img src="https://github.com/HaiderQadir/Notes-App/blob/master/screenshots/SS_NoteHex_04.png" width="170" title="Add Note Screen">
+  <img src="https://github.com/HaiderQadir/Notes-App/blob/master/screenshots/SS_NoteHex_02.png" width="170" title="Add Note Screen">
+  <img src="https://github.com/HaiderQadir/Notes-App/blob/master/screenshots/SS_NoteHex_03.png" width="170" title="Add Note Screen">
+  <img src="https://github.com/HaiderQadir/Notes-App/blob/master/screenshots/SS_NoteHex_05.png" width="170" title="Add Note Screen">
 </p>
 
 ---
